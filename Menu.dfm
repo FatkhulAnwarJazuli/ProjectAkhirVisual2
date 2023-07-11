@@ -4,7 +4,7 @@ object Form4: TForm4
   Width = 465
   Height = 285
   Caption = 'MENU'
-  Color = clSkyBlue
+  Color = clYellow
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11

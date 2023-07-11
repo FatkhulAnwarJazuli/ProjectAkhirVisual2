@@ -367,7 +367,7 @@ object Form6: TForm6
     Database = 'database_siswa'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'D:\Rnldi-PC\S4\UAS-VISUAL-2-main\libmysql.dll'
+    LibraryLocation = 'C:\Users\User\Downloads\VISUAL2\libmysql.dll'
     Left = 608
     Top = 64
   end
@@ -386,7 +386,7 @@ object Form6: TForm6
     Top = 160
   end
   object frxreport1: TfrxReport
-    Version = '4.0.11'
+    Version = '4.12.6'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -428,6 +428,7 @@ object Form6: TForm6
           Top = 30.236240000000000000
           Width = 162.519790000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -447,6 +448,7 @@ object Form6: TForm6
           Left = 34.015770000000000000
           Width = 30.236240000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -462,6 +464,7 @@ object Form6: TForm6
           Left = 64.252010000000000000
           Width = 86.929190000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -477,6 +480,7 @@ object Form6: TForm6
           Left = 151.181200000000000000
           Width = 83.149660000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -492,6 +496,7 @@ object Form6: TForm6
           Left = 234.330860000000000000
           Width = 132.283550000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -507,6 +512,7 @@ object Form6: TForm6
           Left = 366.614410000000000000
           Width = 94.488250000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -522,6 +528,7 @@ object Form6: TForm6
           Left = 461.102660000000000000
           Width = 117.165430000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -537,6 +544,7 @@ object Form6: TForm6
           Left = 578.268090000000000000
           Width = 120.944960000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -552,6 +560,7 @@ object Form6: TForm6
           Left = 699.213050000000000000
           Width = 49.133890000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -567,6 +576,7 @@ object Form6: TForm6
           Left = 748.346940000000000000
           Width = 158.740260000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -582,6 +592,7 @@ object Form6: TForm6
           Left = 907.087200000000000000
           Width = 94.488250000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -597,6 +608,7 @@ object Form6: TForm6
           Left = 1001.575450000000000000
           Width = 86.929190000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -620,6 +632,7 @@ object Form6: TForm6
           Left = 34.015770000000000000
           Width = 30.236240000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
           DisplayFormat.DecimalSeparator = ','
@@ -637,6 +650,7 @@ object Form6: TForm6
           Left = 64.252010000000000000
           Width = 86.929190000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'nis'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -655,6 +669,7 @@ object Form6: TForm6
           Left = 151.181200000000000000
           Width = 83.149660000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'nisn'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -673,6 +688,7 @@ object Form6: TForm6
           Left = 234.330860000000000000
           Width = 132.283550000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'nama'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -691,6 +707,7 @@ object Form6: TForm6
           Left = 366.614410000000000000
           Width = 94.488250000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'nik'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -709,6 +726,7 @@ object Form6: TForm6
           Left = 461.102660000000000000
           Width = 117.165430000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'tempat_lahir'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -727,6 +745,7 @@ object Form6: TForm6
           Left = 578.268090000000000000
           Width = 120.944960000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'tgl_lahir'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -745,6 +764,7 @@ object Form6: TForm6
           Left = 699.213050000000000000
           Width = 49.133890000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'jenis_kelamin'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -763,6 +783,7 @@ object Form6: TForm6
           Left = 748.346940000000000000
           Width = 158.740260000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'alamat'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -781,6 +802,7 @@ object Form6: TForm6
           Left = 907.087200000000000000
           Width = 94.488250000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'telpon'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -799,6 +821,7 @@ object Form6: TForm6
           Left = 1001.575450000000000000
           Width = 86.929190000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'status'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -820,6 +843,7 @@ object Form6: TForm6
     UserName = 'frxdbdtst1'
     CloseDataSource = False
     DataSet = zqry1
+    BCDToCurrency = False
     Left = 608
     Top = 264
   end

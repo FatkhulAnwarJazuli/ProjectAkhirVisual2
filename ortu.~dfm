@@ -338,7 +338,7 @@ object Form5: TForm5
     Database = 'database_siswa'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'D:\Rnldi-PC\S4\UAS-VISUAL-2-main\libmysql.dll'
+    LibraryLocation = 'C:\Users\User\Downloads\VISUAL2\libmysql.dll'
     Left = 704
     Top = 56
   end
@@ -357,7 +357,7 @@ object Form5: TForm5
     Top = 152
   end
   object frxreport1: TfrxReport
-    Version = '4.0.11'
+    Version = '4.12.6'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -399,6 +399,7 @@ object Form5: TForm5
           Top = 30.236240000000000000
           Width = 192.756030000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -418,6 +419,7 @@ object Form5: TForm5
           Left = 75.590600000000000000
           Width = 22.677180000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -433,6 +435,7 @@ object Form5: TForm5
           Left = 98.267780000000000000
           Width = 98.267780000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -448,6 +451,7 @@ object Form5: TForm5
           Left = 196.535560000000000000
           Width = 147.401670000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -463,6 +467,7 @@ object Form5: TForm5
           Left = 343.937230000000000000
           Width = 109.606370000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -478,6 +483,7 @@ object Form5: TForm5
           Left = 453.543600000000000000
           Width = 147.401670000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -493,6 +499,7 @@ object Form5: TForm5
           Left = 600.945270000000000000
           Width = 151.181200000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -508,6 +515,7 @@ object Form5: TForm5
           Left = 752.126470000000000000
           Width = 117.165430000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -523,6 +531,7 @@ object Form5: TForm5
           Left = 869.291900000000000000
           Width = 98.267780000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -538,6 +547,7 @@ object Form5: TForm5
           Left = 967.559680000000000000
           Width = 68.031540000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -561,6 +571,7 @@ object Form5: TForm5
           Left = 75.590600000000000000
           Width = 22.677180000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'id_ortu'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -579,6 +590,7 @@ object Form5: TForm5
           Left = 98.267780000000000000
           Width = 98.267780000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'nik'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -597,6 +609,7 @@ object Form5: TForm5
           Left = 196.535560000000000000
           Width = 147.401670000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'nama'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -615,6 +628,7 @@ object Form5: TForm5
           Left = 343.937230000000000000
           Width = 109.606370000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'pendidikan'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -633,6 +647,7 @@ object Form5: TForm5
           Left = 453.543600000000000000
           Width = 147.401670000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'telp'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -651,6 +666,7 @@ object Form5: TForm5
           Left = 600.945270000000000000
           Width = 151.181200000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'alamat'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -669,6 +685,7 @@ object Form5: TForm5
           Left = 752.126470000000000000
           Width = 117.165430000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'jenis_kelamin'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -687,6 +704,7 @@ object Form5: TForm5
           Left = 869.291900000000000000
           Width = 98.267780000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'agama'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -705,6 +723,7 @@ object Form5: TForm5
           Left = 967.559680000000000000
           Width = 68.031540000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'status'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -726,6 +745,7 @@ object Form5: TForm5
     UserName = 'frxdbdtst1'
     CloseDataSource = False
     DataSource = ds1
+    BCDToCurrency = False
     Left = 704
     Top = 256
   end

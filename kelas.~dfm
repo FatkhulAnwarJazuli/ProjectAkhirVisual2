@@ -194,7 +194,7 @@ object Form9: TForm9
     Database = 'database_siswa'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'D:\Rnldi-PC\S4\UAS-VISUAL-2-main\libmysql.dll'
+    LibraryLocation = 'C:\Users\User\Downloads\VISUAL2\libmysql.dll'
     Left = 616
     Top = 16
   end
@@ -213,7 +213,7 @@ object Form9: TForm9
     Top = 112
   end
   object frxreport1: TfrxReport
-    Version = '4.0.11'
+    Version = '4.12.6'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -254,6 +254,7 @@ object Form9: TForm9
           Top = 30.236240000000000000
           Width = 158.740260000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -273,6 +274,7 @@ object Form9: TForm9
           Left = 113.385900000000000000
           Width = 37.795300000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -288,6 +290,7 @@ object Form9: TForm9
           Left = 151.181200000000000000
           Width = 298.582870000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -303,6 +306,7 @@ object Form9: TForm9
           Left = 449.764070000000000000
           Width = 226.771800000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DisplayFormat.DecimalSeparator = ','
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
@@ -326,6 +330,7 @@ object Form9: TForm9
           Left = 113.385900000000000000
           Width = 37.795300000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
           DisplayFormat.DecimalSeparator = ','
@@ -343,6 +348,7 @@ object Form9: TForm9
           Left = 151.181200000000000000
           Width = 298.582870000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'nama'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -361,6 +367,7 @@ object Form9: TForm9
           Left = 449.764070000000000000
           Width = 226.771800000000000000
           Height = 18.897650000000000000
+          ShowHint = False
           DataField = 'jurusan'
           DataSet = frxdbdtst1
           DataSetName = 'frxdbdtst1'
@@ -382,6 +389,7 @@ object Form9: TForm9
     UserName = 'frxdbdtst1'
     CloseDataSource = False
     DataSource = ds1
+    BCDToCurrency = False
     Left = 616
     Top = 216
   end

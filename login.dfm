@@ -4,7 +4,7 @@ object Form2: TForm2
   Width = 535
   Height = 377
   Caption = 'LOGIN'
-  Color = clSkyBlue
+  Color = clYellow
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -19,11 +19,13 @@ object Form2: TForm2
     Width = 72
     Height = 16
     Caption = 'USERNAME'
+    Color = clYellow
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
     Font.Name = 'Arial'
     Font.Style = [fsBold]
+    ParentColor = False
     ParentFont = False
   end
   object Label4l3: TLabel
