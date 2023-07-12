@@ -75,7 +75,7 @@ object Form9: TForm9
   end
   object b1: TButton
     Left = 65
-    Top = 227
+    Top = 171
     Width = 75
     Height = 29
     Caption = 'BARU'
@@ -90,7 +90,7 @@ object Form9: TForm9
   end
   object b2: TButton
     Left = 153
-    Top = 227
+    Top = 171
     Width = 75
     Height = 29
     Caption = 'SIMPAN'
@@ -105,9 +105,9 @@ object Form9: TForm9
   end
   object b3: TButton
     Left = 249
-    Top = 230
+    Top = 176
     Width = 75
-    Height = 26
+    Height = 24
     Caption = 'EDIT'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -120,7 +120,7 @@ object Form9: TForm9
   end
   object b4: TButton
     Left = 337
-    Top = 227
+    Top = 171
     Width = 75
     Height = 29
     Caption = 'HAPUS'
@@ -135,7 +135,7 @@ object Form9: TForm9
   end
   object b5: TButton
     Left = 425
-    Top = 227
+    Top = 171
     Width = 75
     Height = 29
     Caption = 'BATAL'
@@ -150,7 +150,7 @@ object Form9: TForm9
   end
   object Bb6: TButton
     Left = 513
-    Top = 230
+    Top = 174
     Width = 75
     Height = 26
     Caption = 'LAPORAN'
