@@ -16,9 +16,9 @@ object Form3: TForm3
   object Label4l2: TLabel
     Left = 69
     Top = 117
-    Width = 72
+    Width = 59
     Height = 16
-    Caption = 'USERNAME'
+    Caption = 'ID ADMIN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -29,9 +29,9 @@ object Form3: TForm3
   object Label4l3: TLabel
     Left = 69
     Top = 152
-    Width = 67
+    Width = 38
     Height = 16
-    Caption = 'PASWORD'
+    Caption = 'NAMA'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -52,40 +52,14 @@ object Form3: TForm3
     Font.Style = [fsBold]
     ParentFont = False
   end
-  object Label2: TLabel
-    Left = 69
-    Top = 184
-    Width = 41
-    Height = 16
-    Caption = 'LEVEL'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Arial'
-    Font.Style = [fsBold]
-    ParentFont = False
-  end
-  object Label3: TLabel
-    Left = 69
-    Top = 216
-    Width = 50
-    Height = 16
-    Caption = 'STATUS'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -13
-    Font.Name = 'Arial'
-    Font.Style = [fsBold]
-    ParentFont = False
-  end
-  object Edit1: TEdit
+  object edt1: TEdit
     Left = 153
     Top = 117
     Width = 271
     Height = 21
     TabOrder = 0
   end
-  object Edit2: TEdit
+  object edt2: TEdit
     Left = 153
     Top = 152
     Width = 271
@@ -122,28 +96,6 @@ object Form3: TForm3
     TabOrder = 3
     OnClick = b2Click
   end
-  object ComboBox1: TComboBox
-    Left = 152
-    Top = 184
-    Width = 273
-    Height = 21
-    ItemHeight = 13
-    TabOrder = 4
-    Items.Strings = (
-      'user'
-      'admin')
-  end
-  object ComboBox2: TComboBox
-    Left = 152
-    Top = 216
-    Width = 273
-    Height = 21
-    ItemHeight = 13
-    TabOrder = 5
-    Items.Strings = (
-      'Aktif'
-      'Tidak')
-  end
   object con1: TZConnection
     ControlsCodePage = cGET_ACP
     UTF8StringsAsWideField = False
@@ -151,7 +103,7 @@ object Form3: TForm3
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'database_siswa'
+    Database = 'coffeeshop'
     User = 'root'
     Protocol = 'mysql'
     LibraryLocation = 'C:\Users\User\Downloads\VISUAL2\libmysql.dll'
@@ -162,7 +114,7 @@ object Form3: TForm3
     Connection = con1
     Active = True
     SQL.Strings = (
-      'SELECT * FROM tabel_user')
+      'SELECT * FROM admin')
     Params = <>
     Left = 416
     Top = 256

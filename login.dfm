@@ -16,9 +16,9 @@ object Form2: TForm2
   object Label4l2: TLabel
     Left = 69
     Top = 117
-    Width = 72
+    Width = 38
     Height = 16
-    Caption = 'USERNAME'
+    Caption = 'NAMA'
     Color = clYellow
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
@@ -31,9 +31,9 @@ object Form2: TForm2
   object Label4l3: TLabel
     Left = 69
     Top = 157
-    Width = 67
+    Width = 76
     Height = 16
-    Caption = 'PASWORD'
+    Caption = 'PASSWORD'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -44,9 +44,9 @@ object Form2: TForm2
   object Label1: TLabel
     Left = 208
     Top = 48
-    Width = 122
+    Width = 138
     Height = 23
-    Caption = 'LOGIN USER'
+    Caption = 'LOGIN ADMIN'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
@@ -54,14 +54,14 @@ object Form2: TForm2
     Font.Style = [fsBold]
     ParentFont = False
   end
-  object Edit1: TEdit
+  object edt1: TEdit
     Left = 153
     Top = 117
     Width = 271
     Height = 21
     TabOrder = 0
   end
-  object Edit2: TEdit
+  object edt2: TEdit
     Left = 153
     Top = 157
     Width = 271
@@ -105,10 +105,10 @@ object Form2: TForm2
     Connected = True
     HostName = 'localhost'
     Port = 3306
-    Database = 'database_siswa'
+    Database = 'coffeeshop'
     User = 'root'
     Protocol = 'mysql'
-    LibraryLocation = 'C:\Users\User\Downloads\VISUAL2\libmysql.dll'
+    LibraryLocation = 'C:\Users\User\Documents\VISUAL3\libmysql.dll'
     Left = 216
     Top = 272
   end
@@ -116,7 +116,7 @@ object Form2: TForm2
     Connection = con1
     Active = True
     SQL.Strings = (
-      'SELECT * FROM tabel_user')
+      'SELECT * FROM admin')
     Params = <>
     Left = 256
     Top = 272
